@@ -8,20 +8,20 @@ body {
 }
 
 .container {
-  margin: 16px;
   background-image: linear-gradient(to bottom right, #1e8ba2, #eac5b3);
   background-repeat: no-repeat;
-  max-width: 500px;
+  width: 100%;
+  height: 100%;
   display: grid;
-  padding: 20px 28px;
-  align-items: center;
+  justify-items: center;
   color: #eee;
-  border-radius: 32px;
 }
 
 .nav {
   display: flex;
-  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+  margin: 2em 2em 5em 2em;
 }
 
 .title {
@@ -31,19 +31,20 @@ body {
 }
 
 .content {
-  max-width: 240px;
-  place-self: flex-start;
+  width: 80%;
+  font-size: 1.25em;
+  margin: 4em 2em 7em 2em;
 }
 
 #coder {
-  max-width: 220px;
+  max-width: 300px;
   padding: 8px 0px;
   margin-top: 48px;
   float: right;
 }
 
 .icon {
-  width: 18px;
+  width: 2em;
   padding: 2px 4px;
 }
 
@@ -67,12 +68,12 @@ button {
   display: flex;
   color: #111;
   flex-direction: column;
-  width: 100%;
+  width: 40%;
   align-items: center;
+  margin-bottom: 5em;
 }
 
 .testimony p {
-  max-width: 256px;
   color: #d7926f;
-  margin: 16px;
+  width: 50%;
 }
